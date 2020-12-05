@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/etapa6-functions-dbserver/databases/etapa6-functions-db",
+      "type": "mssql.azure",
+      "connectionId": "WEHeroisContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/etapa6functionstorage",
+      "type": "storage.azure",
+      "connectionId": "StorageAccount",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
