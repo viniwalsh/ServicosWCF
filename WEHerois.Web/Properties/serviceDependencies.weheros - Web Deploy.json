@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/weblocomvcdbserver/databases/WEHerois.Web_db",
+      "type": "mssql.azure",
+      "connectionId": "WEHeros",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
